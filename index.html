@@ -1,0 +1,313 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
+    <title>My Portfolio</title>
+    <link rel="stylesheet" href="css/style.css" />
+    <link rel="stylesheet" href="css/mediaqueries.css" />
+</head>
+
+<body>
+    <nav class="navbar navbar-expand-lg navbar-light bg-light ">
+        <div class="container">
+            <a class="navbar-brand" href="#"><h1>SHIV</h1>&nbsp;<h2>SHANKAR</h2></a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
+                aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav">
+                    <li class="nav-item">
+                        <a href="#about" onclick="toggleMenu()">About</a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="#experience" onclick="toggleMenu()">Experience</a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="#projects" onclick="toggleMenu()">Projects</a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="#contact" onclick="toggleMenu()">Contact</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+
+    <div class="container-flued" id="profile">
+        <div class="col-lg-12 col-md-12 col-sm-12">
+            <div class="section__info">
+                <div class="section__text">
+                    <p class="section__text__p1">Hello, I'm</p>
+                    <h1 class="title">SHIV SHANKAR</h1>
+                    <p class="section__text__p2">Frontend Developer / Graphic Designing</p>
+                    <div class="btn-container">
+                        <button class="btn btn-color-2" onclick="window.open('Portfolioimg/Resume.pdf')">
+                            Download CV
+                        </button>
+                        <button class="btn btn-color-1" onclick="location.href='#contact'">
+                            Contact Info
+                        </button>
+                    </div>
+
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+
+    <div class="container">
+        <section id="about">
+            <p class="section__text__p">Get To Know More</p>
+            <h1 class="title1">About Me</h1>
+            <div class="container">
+                <div class="about-details-container">
+                    <div class="about-containers">
+                        <div class="details-container">
+                            <img src="Portfolioimg/experience.png" alt="Experience icon" class="icon" />
+                            <h3>Experience</h3>
+                            <p>6 Month <br />Frontend Development / Graphic Designing</p>
+                        </div>
+                        <div class="details-container">
+                            <img src="Portfolioimg/education.png" alt="Education icon" class="icon" />
+                            <h3>Education</h3>
+                            <p>10th/12th Passed<br /> 12 Month Frontend Development coures</p>
+                        </div>
+                    </div>
+                    <div class="text-container">
+                        <p>
+                            Web design focuses on creating the layout,
+                            structure, and functionality of websites to ensure a seamless user experience.
+                            This involves using HTML, CSS, and sometimes JavaScript to build visually appealing and
+                            interactive interfaces.
+                            Designers prioritize usability, accessibility, and responsiveness to cater to diverse
+                            audiences
+                            across various devices.<br><br>
+
+                            Graphic design, on the other hand, deals with creating visual content such as logos,
+                            illustrations
+                            , and images to communicate messages or concepts effectively. Graphic designers utilize
+                            tools
+                            like Adobe Photoshop, Illustrator,
+                            and InDesign to craft compelling visuals that align with branding and messaging goals.
+
+                        </p>
+                    </div>
+                </div>
+            </div>
+
+            <img src="Portfolioimg/arrow.png" alt="Arrow icon" class="icon arrow"
+                onclick="location.href='#experience'" />
+        </section>
+    </div>
+
+
+
+    <div class="container" id="experience">
+            <p class="section__text__p">Explore My</p>
+            <h1 class="title1">Experience</h1>
+            <div class="experience-details-container">
+                <div class="about-containers">
+                    <div class="details-container">
+                        <h2 class="experience-sub-title">Frontend Development</h2>
+                        <div class="article-container">
+                            <article>
+                                <img src="Portfolioimg/checkmark.png" alt="Experience icon" class="icon" />
+                                <div>
+                                    <h3>HTML</h3>
+                                    <p>Experienced</p>
+                                </div>
+                            </article>
+                            <article>
+                                <img src="Portfolioimg/checkmark.png" alt="Experience icon" class="icon" />
+                                <div>
+                                    <h3>CSS</h3>
+                                    <p>Experienced</p>
+                                </div>
+                            </article>
+                            <article>
+                                <img src="Portfolioimg/checkmark.png" alt="Experience icon" class="icon" />
+                                <div>
+                                    <h3>JavaScript</h3>
+                                    <p>Basic</p>
+                                </div>
+                            </article>
+                            <article>
+                                <img src="Portfolioimg/checkmark.png" alt="Experience icon" class="icon" />
+                                <div>
+                                    <h3>bootstrap 5</h3>
+                                    <p>Experienced</p>
+                                </div>
+                            </article>
+                            <article>
+                                <img src="Portfolioimg/checkmark.png" alt="Experience icon" class="icon" />
+                                <div>
+                                    <h3>Wordpress</h3>
+                                    <p>Basic</p>
+                                </div>
+                            </article>
+                        </div>
+                    </div>
+                    <div class="details-container">
+                        <h2 class="experience-sub-title">Graphic Design</h2>
+                        <div class="article-container">
+                            <article>
+                                <img src="Portfolioimg/checkmark.png" alt="Experience icon" class="icon" />
+                                <div>
+                                    <h3>Adobe PhotoShop</h3>
+                                    <p>Experienced</p>
+                                </div>
+                            </article>
+                            <article>
+                                <img src="Portfolioimg/checkmark.png" alt="Experience icon" class="icon" />
+                                <div>
+                                    <h3>Adobe Illustrator</h3>
+                                    <p>Basic</p>
+                                </div>
+                            </article>
+                            <article>
+                                <img src="Portfolioimg/checkmark.png" alt="Experience icon" class="icon" />
+                                <div>
+                                    <h3>Coreldraw</h3>
+                                    <p>Basic</p>
+                                </div>
+                            </article>
+                            <article>
+                                <img src="Portfolioimg/checkmark.png" alt="Experience icon" class="icon" />
+                                <div>
+                                    <h3>Figma</h3>
+                                    <p>Basic</p>
+                                </div>
+                            </article>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <img src="Portfolioimg/arrow.png" alt="Arrow icon" class="icon arrow" onclick="location.href='#projects'" />
+        </div>
+    
+     <div class="container-flued">
+        <div class="Project-img"></div>
+     </div>
+
+
+    <div class="container" id="projects">
+            <p class="section__text__p">Browse My Recent</p>
+            <h1 class="title1">Projects</h1>
+            <div class="experience-details-container">
+                <div class="about-containers">
+                    <div class="details-container color-container">
+                        <div class="article-container">
+                            <img src="Portfolioimg/project-1.png" alt="Project 1" class="project-img" />
+                        </div>
+                        <h2 class="experience-sub-title project-title">Project One</h2>
+                        <div class="btn-container">
+                            <button class="btn btn-color-2 project-btn" onclick="location.href='https://github.com/'">
+                                Live Demo
+                            </button>
+                        </div>
+                    </div>
+                    <div class="details-container color-container">
+                        <div class="article-container">
+                            <img src="Portfolioimg/project-2.png" alt="Project 2" class="project-img" />
+                        </div>
+                        <h2 class="experience-sub-title project-title">Project Two</h2>
+                        <div class="btn-container">
+                            <button class="btn btn-color-2 project-btn" onclick="location.href='https://github.com/'">
+                                Live Demo
+                            </button>
+                        </div>
+                    </div>
+                    <div class="details-container color-container">
+                        <div class="article-container">
+                            <img src="Portfolioimg/project-3.jpg" alt="Project 3" class="project-img" />
+                        </div>
+                        <h2 class="experience-sub-title project-title">Project Three</h2>
+                        <div class="btn-container">
+                            <button class="btn btn-color-2 project-btn" onclick="location.href='https://github.com/'">
+                                Live Demo
+                            </button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <img src="Portfolioimg/arrow.png" alt="Arrow icon" class="icon arrow" onclick="location.href='#contact'" />
+        </div>
+
+        <div class="roller">
+            <div class="container-flued">
+                <div class="scroll-left">
+                    <p>PORTFOLIO</p>
+                    <p>PORTFOLIO </p>
+                    <p>PORTFOLIO</p>
+                    <p>PORTFOLIO</p>
+                    <p>PORTFOLIO</p>
+                    <p>PORTFOLIO</p>
+                    <p>PORTFOLIO</p>
+                    <p>PORTFOLIO</p>
+                    <p>PORTFOLIO</p>
+                    <p>PORTFOLIO</p>
+                    <p>PORTFOLIO</p>
+                </div>
+                <div class="scroll-right">
+                    <p>WORK</p>
+                    <p>WORK</p>
+                    <p>WORK</p>
+                    <p>WORK</p>
+                    <p>WORK</p>
+                    <p>WORK</p>
+                    <p>WORK</p>
+                    <p>WORK</p>
+                    <p>WORK</p>
+                </div>
+            </div>
+        </div>
+
+    <div class="container" id="contact">
+            <p class="section__text__p">Get in Touch</p>
+            <h1 class="title1">Contact Me</h1>
+            <div class="contact-info-upper-container">
+                <div class="contact-info-container">
+                    <img src="Portfolioimg/email.png" alt="Email icon" class="icon contact-icon email-icon" />
+                    <p><a href="mailto:shivshankar40113@gmail.com">shivshankar40113@gmail.com</a></p>
+                </div>
+                <div class="contact-info-container">
+                    <img src="Portfolioimg/linkedin.png" alt="LinkedIn icon" class="icon contact-icon" />
+                    <p><a href="https://linkedin.com/in/shiv-shankar-44a2b6283">LinkedIn</a></p>
+                </div>
+                <div class="contact-info-container">
+                    <img src="Portfolioimg/Whatsapp.png" alt="Whatsapp" class="icon contact-icon" />
+                    <p><a href="https://api.whatsapp.com/send?phone=7986647198">Whatsapp</a>
+                    </p>
+                </div>
+                <div class="contact-info-container">
+                    <img src="Portfolioimg/Call.png" alt="Phonenumber" class="icon contact-icon" />
+                    <p><a href="tel:+91 798 664 7198">+91 7986647198</a></p>
+                </div>
+            </div>
+        </div>
+
+    <footer>
+        <nav>
+            <div class="container">
+                <ul class="nav-links">
+                    <li><a href="#about">About</a></li>
+                    <li><a href="#experience">Experience</a></li>
+                    <li><a href="#projects">Projects</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                </ul>
+            </div>
+        </nav>
+        <p>Copyright &#169; 2024 SHIVSHANKAR. All Rights Reserved.</p>
+    </footer>
+    <script src="js/script.js"></script>
+</body>
+
+</html>
